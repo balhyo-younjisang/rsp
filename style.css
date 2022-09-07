@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#game-board {
+  margin: auto;
+  height: 70%;
+  width: 70%;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+}
+
+.board .label {
+  text-align: center;
+}
+
+#user-board {
+  height: 100%;
+  width: 50%;
+  border-right: dotted;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: red; */
+}
+
+#computer-board {
+  height: 100%;
+  width: 50%;
+  border-left: dotted;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: blue; */
+}
+
+#btn-container {
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+button {
+  width: 10vw;
+  height: 10vh;
+  font-size: 30px;
+}
